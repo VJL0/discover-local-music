@@ -38,6 +38,10 @@ I added more attributes to an event. They have important info of an event
 
 Here's a walkthrough of implemented required features:
 
+LinK because it doesnt appear
+
+https://i.imgur.com/IG2vKKA.gif
+
 <img src='https://i.imgur.com/IG2vKKA.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
