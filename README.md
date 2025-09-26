@@ -25,11 +25,12 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [ ] The web app displays items in a unique format, such as cards rather than lists or animated list items
+- [X] The web app displays items in a unique format, such as cards rather than lists or animated list items
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you added to improve the site's functionality!
+- [X] List anything else that you added to improve the site's functionality!
+I added more attributes to an event. They have important info of an event
 
 ## Video Walkthrough
 
@@ -37,7 +38,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/IG2vKKA.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 
