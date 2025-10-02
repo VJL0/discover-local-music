@@ -30,7 +30,6 @@ const renderEvents = async () => {
     const pPrice = document.createElement("p");
     pPrice.textContent = `Tickets: ${evt.price}`;
 
-    // replace your link-building block
     const link = document.createElement("a");
     link.textContent = "Read More >";
     link.href = `/events/${evt.id}`;
@@ -42,13 +41,10 @@ const renderEvents = async () => {
   });
 };
 
-// 404 guard for invalid top-level paths
 const requestedUrl = window.location.pathname.slice(1);
 if (requestedUrl && requestedUrl !== "") {
-  // Only allow root on the index
   if (requestedUrl !== "") {
-    // If someone opened this script on a nested route via index, bounce
-    window.location.href = "./public/404.html";
+    window.location.href = "/404.html";
   }
 } else {
   renderEvents();

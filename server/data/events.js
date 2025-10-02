@@ -1,4 +1,4 @@
-const eventsData = [
+const eventData = [
   {
     id: 1,
     name: "Campus Indie Night",
@@ -66,4 +66,4 @@ const eventsData = [
   },
 ];
 
-export default eventsData;
+export default eventData;

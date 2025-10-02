@@ -13,21 +13,4 @@ export default defineConfig({
       },
     },
   },
-  plugins: [
-    {
-      name: "rewrite-events-detail-to-event-html",
-      configureServer(server) {
-        server.middlewares.use((req, _res, next) => {
-          const wantsHtml =
-            req.headers.accept && req.headers.accept.includes("text/html");
-          const isDetailRoute = req.url && /^\/events\/\d+\/?$/.test(req.url);
-
-          if (wantsHtml && isDetailRoute) {
-            req.url = "/event.html";
-          }
-          next();
-        });
-      },
-    },
-  ],
 });

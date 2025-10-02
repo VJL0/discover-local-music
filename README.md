@@ -1,12 +1,10 @@
-# WEB103 Project 1 - Discover Local Music
+# WEB103 Project 2 - Discover Local Music
 
 Submitted by: Victor Jimenez-Lorenzo
 
-About this web app: Love live music? This app helps students find upcoming concerts, open mic nights, and music festivals happening near their college or university. Whether you're into indie, hip-hop, EDM, or acoustic sets, you can filter by genre, ticket price, or venue size. Users can click on an event to see more details, like the artist lineup, date and time, and ticket price.
+About this web app: About this web app: Love live music? This app helps students find upcoming concerts, open mic nights, and music festivals happening near their college or university. Whether you're into indie, hip-hop, EDM, or acoustic sets, you can filter by genre, ticket price, or venue size. Users can click on an event to see more details, like the artist lineup, date and time, and ticket price.
 
-
-
-Time spent: 5 hours
+Time spent: 2 hours
 
 ## Required Features
 
@@ -15,38 +13,27 @@ The following **required** functionality is completed:
 <!-- Make sure to check off completed functionality below -->
 
 - [X] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [X] **The web app displays a title**
-- [X] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
-- [X] **The user can click on each item in the list to see a detailed view of it, including all database fields**
-  - [X] **Each detail view should be a unique endpoint, such as as `localhost:3000/bosses/crystalguardian` and `localhost:3000/mantislords`**
-  - [X] _Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation_
-- [X] **The web app serves an appropriate 404 page when no matching route is defined**
-- [X] **The web app is styled using Picocss**
+- [X] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
+  - [x] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
+  - [x] **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT \* FROM tablename;' to display your table contents.**
 
 The following **optional** features are implemented:
 
-- [X] The web app displays items in a unique format, such as cards rather than lists or animated list items
+- [ ] The user can search for items by a specific attribute
 
 The following **additional** features are implemented:
 
-- [X] List anything else that you added to improve the site's functionality!
-I added more attributes to an event. They have important info of an event
+- [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
-\*\*Note: please be sure to
-
 Here's a walkthrough of implemented required features:
 
-LinK because it doesnt appear
-
-https://i.imgur.com/IG2vKKA.gif
-
-<img src='https://i.imgur.com/IG2vKKA.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![screenshot of completed project](demo.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 
-GIF created with ... Add GIF tool here
+GIF created with ... GIF tool here
 
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
@@ -57,7 +44,7 @@ GIF created with ... Add GIF tool here
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
 
-I had no idea why my server was not displaying an event by ID. It just didnt want to work, I asked chatGPT and it just gave me middleware that somehow worked. I will definitely be going to the workshop for assistance.
+I had an issue with installing the psql command but i fixed it by adding it to the PATH
 
 ## License
 
